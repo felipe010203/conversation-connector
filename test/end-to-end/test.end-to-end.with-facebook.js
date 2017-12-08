@@ -227,7 +227,7 @@ describe('End-to-End tests: Facebook as channel package - for batched messages',
   const expectedBatchedResult = {
     failedActionInvocations: [
       {
-        errorMessage: `Recipient id: 185643828639058 , Sender id: undefined -- POST https://openwhisk.ng.bluemix.net:443/api/v1/namespaces/${process.env.__OW_NAMESPACE}/actions/test-pipeline-facebook?blocking=true Returned HTTP 502 (Bad Gateway) --> "No Facebook sender_id found in raw data."`,
+        errorMessage :  `Id del destinatario: 185643828639058, ID del remitente: indefinido - POST https://openwhisk.ng.bluemix.net:443/api/v1/namespaces/ $ { process . env . __OW_NAMESPACE } / actions / test-pipeline-facebook ? Blocking = true HTTP 502 devuelto (puerta de enlace incorrecta) -> "No se encontró ningún sender_id de Facebook en datos sin formato". ` ,
         activationId: ''
       }
     ],
